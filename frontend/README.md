@@ -1,7 +1,7 @@
 # Time Capsule App
 
 A modern web application that allows users to create digital time capsules - messages that can only be accessed after a specified date. Share your thoughts, memories, and messages with friends and loved ones in a unique way.
-
+ 
 ## Features
 
 - User authentication (login/register)
