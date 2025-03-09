@@ -1,4 +1,4 @@
-const TimeCapsule = require('../models/timecapsule');
+const TimeCapsule = require('../models/timeCapsule');
 
 class TimeCapsuleService {
     async createCapsule(capsuleData, userId) {
