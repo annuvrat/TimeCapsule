@@ -52,4 +52,4 @@ timeCapsuleSchema.statics.findPublicCapsules = function() {
 timeCapsuleSchema.statics.findUserCapsules = function(userId) {
     return this.find({ creator: userId }).sort({ unlockDate: 'asc' });
 };
-module.exports = mongoose.model('TimeCapsule', timeCapsuleSchema);
+module.exports = mongoose.model('timeCapsule', timeCapsuleSchema);
